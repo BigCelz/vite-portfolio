@@ -2,6 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 import projects from "../datas/Projects";
 
 
+
 const Projects = () => {
   return (
     <section id="projects" className="!py-20 bg-[#FFFDF9] !px-6">
