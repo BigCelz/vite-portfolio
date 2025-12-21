@@ -60,7 +60,7 @@ const Navbar = () => {
             }`}
           >
             {/* Top - Logo / Title */}
-            <div className="mb-6 border-b !pb-4">
+            <div className="mb-6 border-b border-gray-600 !pb-4">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">
                 Stanley Chilaka
               </h2>
@@ -72,28 +72,28 @@ const Navbar = () => {
               <a
                 href="#projects"
                 onClick={() => setIsOpen(false)}
-                className="flex items-center gap-2 hover:text-cyan-500 font-medium transition border-b !pb-4"
+                className="flex items-center gap-2 hover:text-cyan-500 font-medium transition border-b border-gray-600 !pb-4"
               >
                 <FaReact /> Projects
               </a>
               <a
                 href="#tech"
                 onClick={() => setIsOpen(false)}
-                className="flex items-center gap-2 hover:text-cyan-500 font-medium transition border-b !pb-4"
+                className="flex items-center gap-2 hover:text-cyan-500 font-medium transition border-b border-gray-600 !pb-4"
               >
                 <FaNodeJs /> Tech
               </a>
               <a
                 href="#about"
                 onClick={() => setIsOpen(false)}
-                className="flex items-center gap-2 hover:text-cyan-500 font-medium transition border-b !pb-4"
+                className="flex items-center gap-2 hover:text-cyan-500 font-medium transition border-b border-gray-600 !pb-4"
               >
                 <FaUser /> About
               </a>
               <a
                 href="#contact"
                 onClick={() => setIsOpen(false)}
-                className="flex items-center gap-2 hover:text-cyan-500 font-medium transition border-b !pb-4"
+                className="flex items-center gap-2 hover:text-cyan-500 font-medium transition border-b border-gray-600 !pb-4"
               >
                 <HiOutlineMail /> Contact
               </a>
