@@ -49,13 +49,13 @@ const Navbar = () => {
         <>
           {/* Overlay */}
           <div
-            className="fixed inset-0 bg-black/80 z-40  md:hidden lg:hidden"
+            className="fixed inset-0 bg-black/90 z-40  md:hidden lg:hidden"
             onClick={() => setIsOpen(false)}
           ></div>
 
           {/* Sliding Menu */}
           <div
-            className={`fixed top-0 left-0 w-80 h-full bg-[#FFFDF9] z-50 transform transition-transform duration-200 !ease-in-out flex flex-col justify-between !p-6 md:hidden lg:hidden ${
+            className={`fixed top-0 left-0 w-60 h-full bg-[#FFFDF9] z-50 transform transition-transform duration-200 !ease-in-out flex flex-col justify-between !p-6 md:hidden lg:hidden ${
               isOpen ? "translate-x-0" : "-translate-x-full"
             }`}
           >
