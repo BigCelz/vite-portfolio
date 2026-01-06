@@ -10,3 +10,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #F4F1ED;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}

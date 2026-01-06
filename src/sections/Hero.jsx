@@ -35,7 +35,7 @@ const Hero = () => {
         >
           <a
             href="#projects"
-            className="!px-3 !py-2 rounded-sm bg-cyan-500 text-white font-semibold shadow-lg hover:bg-cyan-600 transition"
+            className="!px-3 !py-2 rounded-md bg-cyan-500 text-white font-semibold shadow-lg hover:bg-cyan-600 transition "
           >
             View Projects
           </a>
@@ -44,7 +44,7 @@ const Hero = () => {
             href="https://github.com/BigCelz"
             target="_blank"
             rel="noreferrer"
-            className="!px-3 !py-2 rounded-sm border border-black text-black font-semibold hover:bg-black/20 transition"
+            className="!px-3 !py-2 rounded-md border border-black text-black font-semibold hover:bg-black/20 transition"
           >
             GitHub
           </a>

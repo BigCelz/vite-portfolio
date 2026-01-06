@@ -36,12 +36,12 @@ const Contact = () => {
 
           <div className="flex flex-col gap-4">
             <a
-              href="mailto:stanleychilaka22270@gmail.com"
+              href="mailto:chilaka.stanley2004@gmail.com"
               className="flex items-center gap-3 p-4 rounded-xl bg-white/10 hover:bg-white/20 transition"
             >
               <HiOutlineMail className="text-xl text-cyan-400" />
               <span className="text-slate-200 text-sm sm:text-base break-all">
-                stanleychilaka22270@gmail.com
+                chilaka.stanley2004@gmail.com
               </span>
             </a>
 
