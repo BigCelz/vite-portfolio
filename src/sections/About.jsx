@@ -45,7 +45,7 @@ const About = () => {
           <div className="flex-1 mt-2 md:mt-0">
             <TabsContent
               value="item-1"
-              className="text-left px-4 py-5 bg-gray-50 rounded-lg shadow-sm border border-gray-200"
+              className="text-left px-4 py-5 !bg-none rounded-lg shadow-sm border border-gray-200 bg-gray-50"
             >
               <h3 className="font-semibold mb-2">
                 Frontend Developer (NYSC) @ Activedge Technologies
@@ -73,7 +73,7 @@ const About = () => {
                   control and code reviews.
                 </li>
                 <li className="text-sm">
-                  Familiar with backend integration (Node.js, Express.js,
+                  Got familiar with backend integration (Node.js, Express.js,
                   MongoDB, JWT).
                 </li>
               </ul>
@@ -81,10 +81,10 @@ const About = () => {
 
             <TabsContent
               value="item-2"
-              className="text-left px-4 py-5 bg-gray-50 rounded-lg shadow-sm border border-gray-200"
+              className="text-left px-4 py-5 !bg-none rounded-lg shadow-sm border border-gray-200 mt-2 md:mt-0 bg-gray-50"
             >
               <h3 className="font-semibold mb-2">
-                Frontend Developer(Intern, Remote) @ FigorateHQ
+                Frontend Developer (Intern, Remote) @ FigorateHQ
               </h3>
               <p className="mb-2 text-sm">February 2024 - February 2025</p>
               <ul className="list-disc list-outside ml-5 space-y-2">
