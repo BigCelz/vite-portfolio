@@ -30,7 +30,7 @@ const About = () => {
           defaultValue="item-1"
           className="flex flex-col md:flex-row gap-4"
         >
-          <TabsList className="flex md:flex-col gap-1 w-full md:w-48 items-start sm:mt-9">
+          {/* <TabsList className="flex md:flex-col gap-1 p-3 w-full md:w-48 items-start sm:mt-9">
             <TabsTrigger
               value="item-1"
               className="!justify-start py-2 px-3 md:py-3 md:px-4 text-gray-800 font-medium hover:bg-gray-50 data-[state=active]:font-bold data-[state=active]:bg-gray-100 rounded-md"
@@ -43,7 +43,21 @@ const About = () => {
             >
               FigorateHQ
             </TabsTrigger>
-          </TabsList>
+          </TabsList> */}
+          <TabsList className="flex md:flex-col gap-1 p-3 w-full md:w-48 items-start sm:mt-9">
+    <TabsTrigger
+      value="item-1"
+      className="!justify-start py-2 px-3 md:py-3 md:px-4 text-gray-800 font-medium hover:bg-gray-50 data-[state=active]:font-bold data-[state=active]:bg-gray-100 rounded-md"
+    >
+      Activedge Technologies
+    </TabsTrigger>
+    <TabsTrigger
+      value="item-2"
+      className="!justify-start py-2 px-3 md:py-3 md:px-4 text-gray-800 font-medium hover:bg-gray-50 data-[state=active]:font-bold data-[state=active]:bg-gray-100 rounded-md"
+    >
+      FigorateHQ
+    </TabsTrigger>
+  </TabsList>
 
           <div className="flex-1 mt-2 md:mt-0">
             <TabsContent
