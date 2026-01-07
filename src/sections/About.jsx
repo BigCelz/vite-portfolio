@@ -26,11 +26,8 @@ const About = () => {
           </h5>
         </div>
 
-        <Tabs
-          defaultValue="item-1"
-          className="flex flex-col md:flex-row gap-4"
-        >
-          {/* <TabsList className="flex md:flex-col gap-1 p-3 w-full md:w-48 items-start sm:mt-9">
+        <Tabs defaultValue="item-1" className="flex flex-col md:flex-row gap-4">
+          <TabsList className="flex md:flex-col gap-1 p-3 w-full md:w-48 items-start sm:mt-9 !bg-none">
             <TabsTrigger
               value="item-1"
               className="!justify-start py-2 px-3 md:py-3 md:px-4 text-gray-800 font-medium hover:bg-gray-50 data-[state=active]:font-bold data-[state=active]:bg-gray-100 rounded-md"
@@ -43,21 +40,7 @@ const About = () => {
             >
               FigorateHQ
             </TabsTrigger>
-          </TabsList> */}
-          <TabsList className="flex md:flex-col gap-1 p-3 w-full md:w-48 items-start sm:mt-9">
-    <TabsTrigger
-      value="item-1"
-      className="!justify-start py-2 px-3 md:py-3 md:px-4 text-gray-800 font-medium hover:bg-gray-50 data-[state=active]:font-bold data-[state=active]:bg-gray-100 rounded-md"
-    >
-      Activedge Technologies
-    </TabsTrigger>
-    <TabsTrigger
-      value="item-2"
-      className="!justify-start py-2 px-3 md:py-3 md:px-4 text-gray-800 font-medium hover:bg-gray-50 data-[state=active]:font-bold data-[state=active]:bg-gray-100 rounded-md"
-    >
-      FigorateHQ
-    </TabsTrigger>
-  </TabsList>
+          </TabsList>
 
           <div className="flex-1 mt-2 md:mt-0">
             <TabsContent
@@ -70,22 +53,28 @@ const About = () => {
               <p className="mb-2 text-sm">February 2024 - December 2025</p>
               <ul className="list-disc list-outside ml-5 space-y-2">
                 <li className="text-sm">
-                  Built and maintained responsive web pages using React.js and Next.js.
+                  Built and maintained responsive web pages using React.js and
+                  Next.js.
                 </li>
                 <li className="text-sm">
-                  Styled modern user interfaces using Tailwind CSS and shadcn/ui.
+                  Styled modern user interfaces using Tailwind CSS and
+                  shadcn/ui.
                 </li>
                 <li className="text-sm">
-                  Integrated and handled API data using Axios and React Query (TanStack Query).
+                  Integrated and handled API data using Axios and React Query
+                  (TanStack Query).
                 </li>
                 <li className="text-sm">
-                  Fixed UI bugs and optimized page performance to improve user experience.
+                  Fixed UI bugs and optimized page performance to improve user
+                  experience.
                 </li>
                 <li className="text-sm">
-                  Collaborated with team members using GitHub for version control and code reviews.
+                  Collaborated with team members using GitHub for version
+                  control and code reviews.
                 </li>
                 <li className="text-sm">
-                  Familiar with backend integration (Node.js, Express.js, MongoDB, JWT).
+                  Familiar with backend integration (Node.js, Express.js,
+                  MongoDB, JWT).
                 </li>
               </ul>
             </TabsContent>
@@ -103,10 +92,12 @@ const About = () => {
                   Developed responsive websites using HTML, CSS, and JavaScript.
                 </li>
                 <li className="text-sm">
-                  Created various interfaces in JavaScript, CSS, and HTML, increasing the user experience by 25%.
+                  Created various interfaces in JavaScript, CSS, and HTML,
+                  increasing the user experience by 25%.
                 </li>
                 <li className="text-sm">
-                  Developed reusable React.js components to make frontend development more efficient.
+                  Developed reusable React.js components to make frontend
+                  development more efficient.
                 </li>
                 <li className="text-sm">
                   Collaborated with team members using GitHub.
