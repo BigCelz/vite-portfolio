@@ -8,7 +8,7 @@ const Contact = () => {
         
         {/* Left */}
         <div className="text-center md:text-left">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-5 leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-5 leading-tight">
             Let’s build something that actually ships.
           </h2>
 
