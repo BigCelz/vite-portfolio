@@ -77,6 +77,11 @@ body {
   }
 }
 
+.customized-background {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
 
 
 /* @layer base {
