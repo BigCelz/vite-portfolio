@@ -19,7 +19,6 @@ const About = () => {
           </p>
         </div>
 
-        {/* Adjusted spacing here */}
         <div className="mb-4 sm:mb-4 md:mb-4 text-left">
           <h5 className="text-xl sm:text-2xl font-bold text-center">
             Where I've Worked
