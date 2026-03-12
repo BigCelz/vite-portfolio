@@ -3,9 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -17,9 +15,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
+body.dark {                        
+  background-color: #1f2937;      
+  color: #f0f0f0;                  
+}
 
+body.dark section,
+body.dark div {
+  background-color: inherit;
+  color: inherit;
+}
 
 @layer base {
   :root {

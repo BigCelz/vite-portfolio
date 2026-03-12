@@ -3,25 +3,25 @@ import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 md:py-28 px-5 bg-[#0F172A]">
+    <section
+      id="contact"
+      className="py-20 md:py-28 px-5 bg-[#1e293b] dark:bg-[#0F172A]"
+    >
       <div className="max-w-6xl mx-auto grid gap-14 md:grid-cols-2 items-center">
-        
         {/* Left */}
         <div className="text-center md:text-left">
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-5 leading-tight">
-            Let’s build something that actually ships.
+            Let's build something that actually ships.
           </h2>
-
           <p className="text-slate-300 text-base sm:text-lg max-w-md mx-auto md:mx-0 mb-8">
             I work with teams and founders to turn ideas into fast, clean,
             production-ready interfaces.
           </p>
-
           <a
             href="https://wa.me/2347083429516"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center justify-center gap-3 px-7 py-3 rounded-xl bg-cyan-500 text-white font-semibold hover:bg-cyan-400 transition"
+            className="inline-flex items-center justify-center gap-3 px-7 py-3 rounded-xl bg-cyan-500 dark:bg-cyan-400 text-white dark:text-gray-900 font-semibold hover:bg-cyan-400 dark:hover:bg-cyan-300 transition"
           >
             <FaWhatsapp className="text-xl" />
             Chat on WhatsApp
@@ -33,7 +33,6 @@ const Contact = () => {
           <h3 className="text-lg sm:text-xl font-semibold text-white mb-5 text-center md:text-left">
             Or reach me here
           </h3>
-
           <div className="flex flex-col gap-4">
             <a
               href="mailto:chilaka.stanley2004@gmail.com"
@@ -44,7 +43,6 @@ const Contact = () => {
                 chilaka.stanley2004@gmail.com
               </span>
             </a>
-
             <a
               href="https://github.com/BigCelz"
               target="_blank"
@@ -56,7 +54,6 @@ const Contact = () => {
                 GitHub
               </span>
             </a>
-
             <a
               href="https://www.linkedin.com/in/stanley-chilaka-50006b2a8/"
               target="_blank"

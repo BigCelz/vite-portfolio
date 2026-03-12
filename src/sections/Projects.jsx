@@ -1,13 +1,11 @@
 import ProjectCard from "../components/ProjectCard";
 import projects from "../project-data/Projects";
 
-
-
 const Projects = () => {
   return (
-    <section id="projects" className="!py-20 bg-[#FFFDF9] !px-6">
+    <section id="projects" className="!py-20 !px-6">
       <div className="max-w-6xl !mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 !mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-100 !mb-12">
           My Projects
         </h2>
 
