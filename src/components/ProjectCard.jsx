@@ -7,7 +7,7 @@ const ProjectCard = ({ project, index }) => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.1, duration: 0.6 }}
-      className="bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-transform flex flex-col justify-between p-4 sm:p-6 max-w-sm mx-auto overflow-hidden"
+      className="bg-white dark:bg-gray-700 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-transform flex flex-col justify-between p-4 sm:p-6 max-w-sm mx-auto overflow-hidden"
     >
       {/* Project Content */}
       <div>
@@ -19,12 +19,12 @@ const ProjectCard = ({ project, index }) => {
         />
 
         {/* Title */}
-        <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-1">
+        <h3 className="text-lg sm:text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1">
           {project.title}
         </h3>
 
         {/* Description */}
-        <p className="text-gray-600 text-sm sm:text-base mb-3 line-clamp-3">
+        <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base mb-3 line-clamp-3">
           {project.description}
         </p>
 
@@ -47,7 +47,7 @@ const ProjectCard = ({ project, index }) => {
         href={project.live}
         target="_blank"
         rel="noreferrer"
-        className="w-full px-4 py-2 rounded-lg bg-cyan-500 text-white font-medium text-center text-sm sm:text-base hover:bg-cyan-600 transition-colors"
+        className="w-full px-4 py-2 rounded-lg bg-cyan-500 dark:bg-cyan-400 text-white dark:text-gray-900 font-medium text-center text-sm sm:text-base hover:bg-cyan-600 dark:hover:bg-cyan-300 transition-colors"
       >
         Live
       </a>
@@ -56,4 +56,3 @@ const ProjectCard = ({ project, index }) => {
 };
 
 export default ProjectCard;
-
