@@ -49,7 +49,7 @@ const About = () => {
               <h3 className="font-semibold mb-2 text-gray-800 dark:text-gray-100">
                 Frontend Developer (NYSC) @ Activedge Technologies
               </h3>
-              <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">February 2024 - December 2025</p>
+              <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">February 2025 - December 2025</p>
               <ul className="list-disc list-outside ml-5 space-y-2">
                 <li className="text-sm text-gray-700 dark:text-gray-300">
                   Built and maintained responsive web pages using React.js and Next.js.
@@ -79,7 +79,7 @@ const About = () => {
               <h3 className="font-semibold mb-2 text-gray-800 dark:text-gray-100">
                 Frontend Developer (Intern, Remote) @ FigorateHQ
               </h3>
-              <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">February 2024 - February 2025</p>
+              <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">January 2024 - December 2024</p>
               <ul className="list-disc list-outside ml-5 space-y-2">
                 <li className="text-sm text-gray-700 dark:text-gray-300">
                   Developed responsive websites using HTML, CSS, and JavaScript.
