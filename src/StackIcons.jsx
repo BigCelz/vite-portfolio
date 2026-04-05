@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiRedux, SiVite, SiMongodb } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiRedux, SiVite, SiMongodb, SiAxios, SiReactquery } from "react-icons/si";
 
 const StackIcons = {
   react: <FaReact className="text-cyan-500 w-5 h-5" />,
@@ -9,6 +9,8 @@ const StackIcons = {
   next: <SiNextdotjs className="text-black w-5 h-5" />,
   tailwind: <SiTailwindcss className="text-sky-500 w-5 h-5" />,
   redux: <SiRedux className="text-purple-600 w-5 h-5" />,
+  axios: <SiAxios className="text-purple-500 w-5 h-5" />,
+  "tanstack-query": <SiReactquery className="text-red-500 w-5 h-5" />,
 
   // Custom text badges
   zustand: (
@@ -29,5 +31,4 @@ const StackIcons = {
 };
 
 export default StackIcons;
-
 

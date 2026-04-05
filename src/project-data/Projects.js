@@ -3,6 +3,7 @@ import storeImg from "../assets/store.png";
 import aioImg from "../assets/aio.png";
 import disneyImg from "../assets/disney.png";
 import kaidaHeavensImg from "../assets/kaida.png";
+import kaidaHustle from "../assets/kh.png";
 
 const projects = [
   {
@@ -16,12 +17,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "E-Commerce Website",
+    title: "KaidaHustle",
     description:
-      "A fully functional e-commerce website built with React, Tailwind CSS, and Redux Toolkit for state management.",
-    image: storeImg,
-    live: "https://kaida-store.vercel.app/",
-    stack: ["react", "redux", "tailwind"],
+      "A niche job board for remote and local tech jobs across Africa, built with modern SaaS patterns.",
+    image: kaidaHustle,
+    live: "https://kaida-hustle.netlify.app/",
+    stack: ["react", "tailwind", "tanstack-query", "axios"],
   },
   {
     id: 3,
@@ -44,10 +45,11 @@ const projects = [
   {
     id: 5,
     title: "KaidaHeavens",
-    description: "A MERN full-stack property platform to list, manage, and discover properties with secure login and live updates.",
+    description:
+      "A MERN full-stack property platform to list, manage, and discover properties with secure login and live updates.",
     image: kaidaHeavensImg,
     live: "https://real-estate-liart-psi.vercel.app/",
-    stack: ["vite", "NodeJs", "express", "mongodb", "redux", "tailwind", ],
+    stack: ["vite", "NodeJs", "express", "mongodb", "redux", "tailwind"],
   },
 ];
 
