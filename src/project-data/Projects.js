@@ -12,7 +12,7 @@ const projects = [
     description:
       "A responsive food ordering app built with Next.js, Zustand, and Tailwind CSS.",
     image: FoodAppImg,
-    live: "https://food-app-delta-lake.vercel.app/",
+    live: "https://kaida-foods.netlify.app/",
     stack: ["next", "zustand", "tailwind"],
   },
   {
