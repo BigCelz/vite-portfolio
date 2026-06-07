@@ -1,9 +1,9 @@
 import FoodAppImg from "../assets/foodapp home.png";
-import storeImg from "../assets/store.png";
 import aioImg from "../assets/aio.png";
 import disneyImg from "../assets/disney.png";
 import kaidaHeavensImg from "../assets/kaida.png";
-import kaidaHustle from "../assets/kh.png";
+import sticthesWebsite from "../assets/stitchesWebsite.png";
+
 
 const projects = [
   {
@@ -17,12 +17,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "KaidaHustle",
+    title: "Stitches & Co.",
     description:
-      "A niche job board for remote and local tech jobs across Africa, built with modern SaaS patterns.",
-    image: kaidaHustle,
-    live: "https://kaida-hustle.netlify.app/",
-    stack: ["react", "tailwind", "tanstack-query", "axios"],
+      "A fashion design website for a modern clothing brand, showcasing curated collections with a clean, editorial aesthetic.",
+    image: sticthesWebsite,
+    live: "https://stictches.netlify.app/",
+    stack: ["react", "tailwind"],
   },
   {
     id: 3,
