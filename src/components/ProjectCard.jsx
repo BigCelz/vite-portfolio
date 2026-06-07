@@ -1,12 +1,11 @@
 import StackIcons from "@/StackIcons";
-import { motion } from "framer-motion";
 
 const ProjectCard = ({ project, index }) => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ delay: index * 0.1, duration: 0.6 }}
+    <div
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay={index * 100}
       className="bg-white dark:bg-gray-700 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-transform flex flex-col justify-between p-4 sm:p-6 max-w-sm mx-auto overflow-hidden"
     >
       {/* Project Content */}
@@ -51,7 +50,7 @@ const ProjectCard = ({ project, index }) => {
       >
         Live
       </a>
-    </motion.div>
+    </div>
   );
 };
 
