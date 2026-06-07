@@ -5,11 +5,11 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-20 md:py-28 px-5 bg-[#1e293b] dark:bg-[#0F172A]"
+      className="py-20 md:py-28 px-5 bg-[#1e293b] dark:bg-[#0F172A] overflow-hidden"
     >
       <div className="max-w-6xl mx-auto grid gap-14 md:grid-cols-2 items-center">
         {/* Left */}
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left" data-aos="fade-right" data-aos-duration="1500">
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-5 leading-tight">
             Let's build something that actually ships.
           </h2>
@@ -29,7 +29,7 @@ const Contact = () => {
         </div>
 
         {/* Right */}
-        <div className="bg-white/5 backdrop-blur rounded-3xl p-6 sm:p-8 md:p-10 border border-white/10">
+        <div className="bg-white/5 backdrop-blur rounded-3xl p-6 sm:p-8 md:p-10 border border-white/10" data-aos="fade-left" data-aos-duration="1500">
           <h3 className="text-lg sm:text-xl font-semibold text-white mb-5 text-center md:text-left">
             Or reach me here
           </h3>

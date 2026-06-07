@@ -2,13 +2,13 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const About = () => {
   return (
-    <section id="about" className="!py-20 !px-6">
+    <section id="about" className="!py-20 !px-6 overflow-hidden">
       <div className="max-w-4xl !mx-auto text-center">
         <div className="mb-6 sm:mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-100 !mb-3">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-100 !mb-3" data-aos="fade-up" data-aos-duration="1500">
             About Me
           </h2>
-          <p className="text-gray-700 dark:text-gray-300 text-lg md:text-xl leading-relaxed">
+          <p className="text-gray-700 dark:text-gray-300 text-lg md:text-xl leading-relaxed" data-aos="fade-up" data-aos-duration="1500">
             Hello! I'm <span className="font-bold">Stanley Chilaka</span>, a
             forward-thinking web developer passionate about building modern,
             responsive, and user-friendly digital experiences. I work with
@@ -20,12 +20,12 @@ const About = () => {
         </div>
 
         <div className="mb-4 sm:mb-4 md:mb-4 text-left">
-          <h5 className="text-xl sm:text-2xl font-bold text-center dark:text-gray-100">
+          <h5 className="text-xl sm:text-2xl font-bold text-center dark:text-gray-100" data-aos="fade-up" data-aos-duration="1500">
             Where I've Worked
           </h5>
         </div>
 
-        <Tabs defaultValue="item-1" className="flex flex-col md:flex-row gap-4">
+        <Tabs defaultValue="item-1" className="flex flex-col md:flex-row gap-4" data-aos="fade-up" data-aos-duration="1500">
           <TabsList className="flex md:flex-col gap-1 p-3 w-full md:w-48 items-start sm:mt-9 customized-background">
             <TabsTrigger
               value="item-1"

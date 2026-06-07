@@ -12,7 +12,7 @@ const App = () => {
   const { isDark } = useTheme();
 
   return (
-    <div className={`relative ${isDark ? "dark" : ""}`}>
+    <div className={`relative overflow-hidden ${isDark ? "dark" : ""}`}>
       <Navbar />
       <main className="mt-16">
         <Hero />

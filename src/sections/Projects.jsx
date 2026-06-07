@@ -3,7 +3,7 @@ import projects from "../project-data/Projects";
 
 const Projects = () => {
   return (
-    <section id="projects" className="!py-20 !px-6">
+    <section id="projects" className="!py-20 !px-6 overflow-hidden">
       <div className="max-w-6xl !mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-100 !mb-12">
           My Projects
