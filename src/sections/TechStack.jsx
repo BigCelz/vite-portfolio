@@ -24,14 +24,14 @@ const Badge = ({ children, variant = "cyan" }) => {
 
 const TechStack = () => {
   return (
-    <section id="tech" className="!py-20 !px-6">
+    <section id="tech" className="!py-20 !px-6 overflow-hidden">
       <div className="max-w-5xl !mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-100 text-center !mb-10">
           Tech Stack
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-          <div>
+        <div className="flex flex-col gap-8 text-center">
+          <div className="border-b border-gray-200 dark:border-gray-700 pb-8" data-aos="fade-up" data-aos-duration="1500">
             <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">
               Frontend & Tools
             </h3>
@@ -42,13 +42,13 @@ const TechStack = () => {
             </div>
           </div>
 
-          <div>
+          <div className="border-b border-gray-200 dark:border-gray-700 pb-8" data-aos="fade-up" data-aos-duration="1500">
             <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-2">
-              Backend (familiar)
+              Backend 
             </h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+            {/* <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
               Comfortable working with APIs and servers
-            </p>
+            </p> */}
             <div className="flex flex-wrap justify-center gap-4">
               {backendTechs.map((tech, i) => (
                 <Badge key={i} variant="neutral">{tech}</Badge>
@@ -56,7 +56,7 @@ const TechStack = () => {
             </div>
           </div>
 
-          <div>
+          <div data-aos="fade-up" data-aos-duration="1500">
             <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-2">
               Workflow & Collaboration
             </h3>

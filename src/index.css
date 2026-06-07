@@ -9,13 +9,18 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #F4F1ED;
   color: #111827;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
-  transition: background-color 0.3s ease, color 0.3s ease; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
 }
 
 body.dark {                        

@@ -15,7 +15,7 @@ const Navbar = () => {
   const { isDark, toggleTheme } = useTheme();
 
   return (
-    <nav className="bg-[#FFFDF9] dark:bg-[#1f2937] fixed !w-full top-0 z-50 shadow-md transition-colors duration-300">
+    <nav className="bg-[#FFFDF9] dark:bg-[#1f2937] fixed !w-full top-0 z-50 shadow-md transition-colors duration-300 overflow-x-hidden">
       <div className="flex items-center justify-between py-4 max-w-6xl px-3 md:px-4 mx-auto">
         {/* Logo */}
         <a href="/">
