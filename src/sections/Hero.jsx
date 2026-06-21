@@ -1,6 +1,7 @@
 const Hero = () => {
   return (
-    <section className="relative !min-h-screen flex items-center justify-center !px-6 overflow-hidden">
+    // <section className="relative !min-h-screen flex items-center justify-center !px-6 overflow-hidden">
+     <section className="relative !min-h-[calc(100vh-5rem)] mt-20 flex items-center justify-center !px-6 overflow-hidden">
 
       {/* Grid background */}
       <div

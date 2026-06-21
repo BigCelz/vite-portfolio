@@ -15,7 +15,7 @@ const Navbar = () => {
   const { isDark, toggleTheme } = useTheme();
 
   return (
-    <nav className="bg-[#FFFDF9] dark:bg-[#1f2937] fixed !w-full top-0 z-50 shadow-md transition-colors duration-300 overflow-x-hidden">
+    <nav className="bg-[#FFFDF9] dark:bg-[#1f2937] fixed !w-full top-0 z-50 shadow-md transition-colors duration-300 overflow-x-hidden h-20">
       <div className="flex items-center justify-between py-4 max-w-6xl px-3 md:px-4 mx-auto">
         {/* Logo */}
         <a href="/">
@@ -67,7 +67,7 @@ const Navbar = () => {
             )}
           </button>
 
-          <button
+          {/* <button
             className="text-gray-800 dark:text-gray-200 text-2xl hover:bg-black/10 dark:hover:bg-white/10 !p-2 rounded-md transition"
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -76,6 +76,13 @@ const Navbar = () => {
             ) : (
               <Menu className="!w-8 !h-8" />
             )}
+          </button> */}
+
+          <button
+            className="text-gray-800 dark:text-gray-200 text-2xl hover:bg-black/10 dark:hover:bg-white/10 !p-2 rounded-md transition"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <Menu className="!w-8 !h-8" />
           </button>
         </div>
       </div>
@@ -98,13 +105,33 @@ const Navbar = () => {
       >
         {/* Top - Logo / Title */}
         <div>
-          <div className="mb-6 border-b border-gray-300 dark:border-gray-700 !pb-4">
-            <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-2">
-              Stanley Chilaka
-            </h2>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              Frontend Developer
-            </p>
+          {/* <div className="mb-6 border-b flex justify-between border-gray-300 dark:border-gray-700 !pb-4">
+            <div className="flex flex-col items-center gap-3">
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-2">
+                Stanley Chilaka
+              </h2>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                Frontend Developer
+              </p>
+            </div>
+          </div> */}
+
+          <div className="mb-6 border-b flex justify-between border-gray-300 dark:border-gray-700 !pb-4">
+            <div className="flex flex-col items-start">
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100  whitespace-normal">
+                S.C
+              </h2>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                Frontend Developer
+              </p>
+            </div>
+
+            <button
+              className="text-gray-800 dark:text-gray-200 text-2xl hover:bg-black/10 dark:hover:bg-white/10 !p-2 rounded-md transition h-fit"
+              onClick={() => setIsOpen(false)}
+            >
+              <X className="!w-8 !h-8" />
+            </button>
           </div>
 
           {/* Menu Links */}
